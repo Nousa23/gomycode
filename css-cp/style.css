@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body {
+  background-color: #a4c4e2; /* Replace with your desired background color or image */
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+}
+/* CSS to create a circular image */
+.circular-image {
+  width: 150px; /* Adjust the width and height to set the size of the circular image */
+  height: 150px;
+  border-radius: 50%; /* Make the image circular using a border-radius of 50% */
+  overflow: hidden; /* Hide any part of the image that goes beyond the circular shape */
+}
+
+.circular-image img {
+  width: 100%; /* Make sure the image fills the circular container */
+  height: auto; /* Maintain the image's aspect ratio */
+}
+
+  /* Style for the <ul> element */
+ul {
+  list-style: none; /* Removes default bullet points */
+  padding: 50; /* Removes default padding */
+  margin: 50; /* Removes default margin */
+}
+
+/* Style for the <li> elements */
+li {
+  padding: 5px 20px; /* Add padding to the list items */
+  /* Add any other desired styles, such as background-color, color, etc. */
+}
+
+
+footer {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: rgb(11, 133, 173);
+  }
+ 
+
+  .navbar{
+    display:inline;
+    font-family: 'Roboto', sans-serif;
+
+  }
